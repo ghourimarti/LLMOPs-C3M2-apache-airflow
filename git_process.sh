@@ -15,6 +15,8 @@ git commit -m "Initial commit to dev branch"
 # Replace <username> and <repository> with your GitHub username and repository name.
 git remote add origin https://github.com/ghourimarti/LLMOPs-C3M2-apache-airflow.git
 
+# step 6: Push Your Changes to GitHub
+git push -u origin dev
 
 
 
