@@ -1,0 +1,30 @@
+# Core Airflow version (always pin this)
+apache-airflow # or whichever version you're using
+
+# Airflow extras (optional, depending on your use case)
+apache-airflow[celery,postgres,redis]==2.7.3
+
+# Web UI support
+flask
+flask-admin
+
+# Python & compatibility packages
+charset-normalizer
+chardet
+
+# Required for requests package compatibility
+requests
+
+# DB dependencies
+sqlalchemy # 2.x can break airflow
+psycopg2-binary
+
+# Other airflow core dependencies
+pendulum
+python-daemon
+gunicorn
+
+# Pin setuptools and pip
+pip
+setuptools
+wheel
